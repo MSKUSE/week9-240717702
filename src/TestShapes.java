@@ -2,11 +2,7 @@ public class TestShapes {
     public static void main(String[] args) {
 
 
-        Shape shape = new Shape("red");
-        System.out.println(shape);
-        System.out.println("Area: " + shape.area());
-        System.out.println("Perimeter: " + shape.perimeter());
-        System.out.println("------------------------------------------------------------------");
+
 
         Circle circle = new Circle("blue", 5);
         System.out.println(circle);
@@ -21,11 +17,7 @@ public class TestShapes {
         System.out.println("Circle equals Circle1: " + circle.equals(circle1));
         System.out.println("------------------------------------------------------------------");
 
-        Rectangle rectangle = new Rectangle("green", 4, 6);
-        System.out.println(rectangle);
-        System.out.println("Area: " + rectangle.area());
-        System.out.println("Perimeter: " + rectangle.perimeter());
-        System.out.println("------------------------------------------------------------------");
+
 
 
         Shape rectangle1 = new Rectangle("green", 4, 6);
